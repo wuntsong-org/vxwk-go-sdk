@@ -27,6 +27,25 @@ func Status(s ...int64) Options {
 	}
 }
 
+func MediaType(s ...string) Options {
+	return func(a any) {
+		if len(s) == 0 {
+			return
+		}
+
+		q, ok := a.(*url.Values)
+		if !ok {
+			return
+		}
+
+		if q == nil {
+			return
+		}
+
+		q.Set("status", fmt.Sprintf("[%s]", utils.JoinStringToString(s, ",", true)))
+	}
+}
+
 func Page(page, pageSize int64) Options {
 	return func(a any) {
 		if page <= 0 {
@@ -67,5 +86,24 @@ func Src(src string) Options {
 		}
 
 		q.Set("src", src)
+	}
+}
+
+func Name(name string) Options {
+	return func(a any) {
+		if len(name) == 0 {
+			return
+		}
+
+		q, ok := a.(*url.Values)
+		if !ok {
+			return
+		}
+
+		if q == nil {
+			return
+		}
+
+		q.Set("name", name)
 	}
 }
