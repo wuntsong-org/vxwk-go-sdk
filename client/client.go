@@ -3,8 +3,8 @@ package client
 import (
 	"bytes"
 	"fmt"
+	"github.com/wuntsong-org/vxwk-go-sdk/utils"
 	errors "github.com/wuntsong-org/wterrors"
-	"go-sdk/utils"
 	"io"
 	"net/http"
 	"net/url"

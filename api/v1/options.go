@@ -2,7 +2,7 @@ package v1
 
 import (
 	"fmt"
-	"go-sdk/utils"
+	"github.com/wuntsong-org/vxwk-go-sdk/utils"
 	"net/url"
 )
 

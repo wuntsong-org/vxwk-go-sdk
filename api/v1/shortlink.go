@@ -1,9 +1,9 @@
 package v1
 
 import (
+	"github.com/wuntsong-org/vxwk-go-sdk/client"
+	"github.com/wuntsong-org/vxwk-go-sdk/model"
 	errors "github.com/wuntsong-org/wterrors"
-	"go-sdk/client"
-	"go-sdk/model"
 	"net/url"
 )
 

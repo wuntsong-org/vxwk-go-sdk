@@ -1,6 +1,8 @@
-module go-sdk
+module github.com/wuntsong-org/vxwk-go-sdk
 
-go 1.19
+go 1.21
+
+toolchain go1.21.0
 
 require (
 	github.com/json-iterator/go v1.1.12
