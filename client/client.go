@@ -56,8 +56,6 @@ func (c *Client) SendGetRequests(path string, query url.Values, r RespInterface)
 		return nil, errors.WarpQuick(err)
 	}
 
-	req.Header.Set("Content-Type", "application/json")
-
 	client := http.DefaultClient
 	resp, err := client.Do(req)
 	if err != nil {

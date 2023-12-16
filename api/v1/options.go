@@ -42,7 +42,7 @@ func MediaType(s ...string) Options {
 			return
 		}
 
-		q.Set("status", fmt.Sprintf("[%s]", utils.JoinStringToString(s, ",", true)))
+		q.Set("mediaType", fmt.Sprintf("[%s]", utils.JoinStringToString(s, ",", true)))
 	}
 }
 
