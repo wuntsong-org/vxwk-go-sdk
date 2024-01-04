@@ -15,3 +15,5 @@ github.com/stretchr/testify v1.3.0 h1:TivCn/peBQ7UY8ooIcPgZFpTNSz0Q2U6UrFlUfqbe0
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/wuntsong-org/wterrors v1.0.0 h1:MCZDlXbe/H2XYJG5Jk0Jrk7Wl4Pj9BuUREZ1cMLDDG0=
 github.com/wuntsong-org/wterrors v1.0.0/go.mod h1:auGJ19RfPa04G1I3TTwxgZ1JgwHwOIfLSDOmM0JULvo=
+github.com/wuntsong-org/wterrors v1.3.0 h1:rjN5kqbkx86Ytfp7r+eghh/mIYi9GFv7vPegzv9x+O4=
+github.com/wuntsong-org/wterrors v1.3.0/go.mod h1:auGJ19RfPa04G1I3TTwxgZ1JgwHwOIfLSDOmM0JULvo=

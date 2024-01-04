@@ -6,7 +6,7 @@ toolchain go1.21.0
 
 require (
 	github.com/json-iterator/go v1.1.12
-	github.com/wuntsong-org/wterrors v1.0.0
+	github.com/wuntsong-org/wterrors v1.3.0
 )
 
 require (
